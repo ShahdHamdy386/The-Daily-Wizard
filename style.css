@@ -1,11 +1,6 @@
-*{
-    
-}
-
 :root{
     --backgroundColor: white;
 }
-
 body{
     box-sizing: border-box;
     padding: 0px;
@@ -144,6 +139,7 @@ footer .explore{
     margin: auto;
     text-align: center;
     align-items: center;
+    justify-content: space-between;
 }
 
 footer .explore p{
@@ -155,7 +151,8 @@ footer .explore ul, footer form{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: left;
+    gap: 10px;
     width: 80%;
 }
 
